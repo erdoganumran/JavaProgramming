@@ -12,7 +12,7 @@ public class WrapperClassesIntro {
         System.out.println("---------------------------------------------");
 
         Integer integerValue= 100;
-        long longValue= integerValue; // if it is in the range it will acppet another primitive if you convert wrapper class to primitives
+        long longValue= integerValue; // if it is in the range it will accept another primitive if you convert wrapper class to primitives
 
         Byte b1=25;
         byte a1=b1;
@@ -20,7 +20,7 @@ public class WrapperClassesIntro {
 
         System.out.println("--------------------------------");
         int num3=200;
-        //Double num4=num3;  it doesnt accept because it doesnt allow convert from prim to wrapper class. you can just convert it same wrapper class
+        //Double num4=num3;  it doesn't accept because it doesn't allow convert from prim to wrapper class. you can just convert it same wrapper class
         Integer num=num3;
 
         System.out.println("----------------------------------");

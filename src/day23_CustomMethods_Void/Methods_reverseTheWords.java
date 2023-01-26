@@ -14,7 +14,7 @@ public class Methods_reverseTheWords {// classname
         //access modifiers: public, protected, default, private
         //specifiers: static, final, abstract, synchronized
         //return type: void, any DataType(strung, int, or any other custom data type)
-        //method name can be any time but make sure that it is meaningful
+        //method name can be any name but make sure that it is meaningful
         //parameter: any data type
 
         Scanner scan= new Scanner(System.in);

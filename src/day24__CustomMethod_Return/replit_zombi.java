@@ -11,7 +11,46 @@ public class replit_zombi {
 
         //TODO. Write you code below this line.
 
-        int total = 0;
+        int day = 0;
+        int population = 1;
+        int[] arr = new int[inhabitants.length];
+        System.out.println("Day " + day + " " + Arrays.toString(inhabitants));
+
+        while (population > 0) {
+            //
+            population = 0;
+            for (int each : inhabitants) {
+                population += each;
+            }
+            day++;
+            //
+            if(population==0){
+                System.out.println("---- EXTINCT ----");
+                System.exit(0);}
+
+            for (int i = 0; i < arr.length; i++) {
+                arr[i]=inhabitants[i];
+            }
+            if (arr[1] == 0) {
+                inhabitants[0] = arr[0] / 2;
+              }
+
+             for (int i = 1; i < inhabitants.length - 1; i++) {
+                if (arr[i - 1] == 0 || arr[i + 1] == 0) {
+                inhabitants[i] = arr[i] / 2;
+                }
+             }
+             if (arr[inhabitants.length - 2] == 0) {
+                 inhabitants[inhabitants.length - 1] = arr[inhabitants.length - 1] / 2;
+             }
+            System.out.println("Day " + day + " " + Arrays.toString(inhabitants));
+        }
+
+    }
+}
+
+
+/*        int total = 0;
         for (int each : inhabitants) {
             total += each; // population at the beginning
         }
@@ -47,9 +86,8 @@ public class replit_zombi {
        }
         System.out.println("---- EXTINCT ----");
         input.close();
-    }
+    }*/
 
-}
         /*while (average != 0) {
             System.out.println("Day " + day + Arrays.toString(inhabitants));
             //for (int i=0; i<inhabitants[i]; i++)

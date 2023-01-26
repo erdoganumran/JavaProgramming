@@ -12,7 +12,7 @@ public class CustomMethodsIntro {
     public static void main(String[] args) {// this is main method
         greeting();// i call another method here. the greeting method will be executed first---Hello Cydeo How are you today?
         System.out.println("hello");// second this will be printed
-        greeting();// i call another method here// third this will be printed agaib
+        greeting();// i call another method here// third this will be printed again
     }// you can create your method everywhere. but make sure it is not inside another method. should be independent
 }
 

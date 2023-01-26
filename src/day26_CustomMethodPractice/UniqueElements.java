@@ -21,8 +21,8 @@ public class UniqueElements {
 
         for(int each:array){
             if (ArraysUtility.frequencyOfElement(array, each)==1){// for each element, every iteration it will count each of the elements freq here
-                //if freq ==1 for first ellement result= each
-                //for second iteration it will count second element of array, if it is 1, result wil be added old result
+                //if freq ==1 for first element result= 1
+                //for second iteration it will count second element of array, if it is 1, result wil be added old result but it is not so it will other iteration
             result=ArraysUtility.addElement(result,each);
             //but if the size is fixed how we can add a new element, check add element method
 // every time each will be added to the result array
