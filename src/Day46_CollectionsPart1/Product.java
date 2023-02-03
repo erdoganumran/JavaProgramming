@@ -1,4 +1,4 @@
-package Day46_part1;
+package Day46_CollectionsPart1;
 
 public class Product implements Comparable<Product>{
 
