@@ -15,8 +15,8 @@ public class TryCatch {
         }catch (Exception e){//catch block only runs if there is an error in try block
             System.out.println("Exception happened in try block and was caught");
             //you can create onr more try-catch in catch
-           // e.printStackTrace();//long description
-           // e.getMessage();
+           //e.printStackTrace();//long description
+           //e.getMessage();
         }
 
         System.out.println("After try catch block");// but will print this line

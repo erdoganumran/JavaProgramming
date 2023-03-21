@@ -22,7 +22,7 @@ public class ThrowAndThrows {
 
         sleep3(2);
 
-    }
+    }////////
 
     public static void sleep(int seconds) throws InterruptedException {
         Thread.sleep(seconds*1000);//this is checked exception
