@@ -10,7 +10,7 @@ public class ArrayVsArrayList {
         String [] days= new String[7];
         days[0]= "Monday";
 
-        Object[] onj= {2, "apple", false};
+        Object[] obj= {2, "apple", false};
 
         ArrayList<Integer> list1= new ArrayList<>();
         List<Integer> list2= new ArrayList<>();

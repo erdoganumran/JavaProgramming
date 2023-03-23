@@ -21,6 +21,7 @@ public class SortingArrayList {
         Collections.sort(list);
         System.out.println(list);
 
+        System.out.println("------------------------------------");
         List<Product> list1= new ArrayList<>();
         list1.add(new Product("apple", 2));
         list1.add(new Product("strawberry", 5));

@@ -20,7 +20,7 @@ public class MapExample {
         items.put("Cherry", 6.99);
 
         //to get size
-        System.out.println(items.size());
+        System.out.println(items.size());//5
 
         System.out.println(items);
 
