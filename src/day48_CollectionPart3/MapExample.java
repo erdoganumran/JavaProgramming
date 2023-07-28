@@ -52,5 +52,6 @@ public class MapExample {
         items.replace("Cherry", items.get("Cherry")+2);
         System.out.println(items.get("Cherry"));
 
+
     }
 }
